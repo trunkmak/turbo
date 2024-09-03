@@ -1073,7 +1073,7 @@ jobs:
           ref: benchmark-data
 
       - name: Download benchmark data
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4.1.7
         with:
           path: artifacts
 
@@ -1384,7 +1384,7 @@ jobs:
         run: npm install -g @datadog/datadog-ci
 
       - name: Download test results
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4.1.7
         with:
           path: artifacts
 
