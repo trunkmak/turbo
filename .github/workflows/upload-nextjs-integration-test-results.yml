@@ -25,7 +25,7 @@ jobs:
 
       # First, grab test results into `test-results/main` directory from artifact stored by `next-integration-test`.
       - name: Grab test results
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4.1.7
         with:
           name: test-results
           path: test-results/main

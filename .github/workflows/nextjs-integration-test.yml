@@ -200,7 +200,7 @@ jobs:
         uses: actions/checkout@v3
       - name: Download test reports artifact
         id: download-test-reports
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4.1.7
         continue-on-error: true
         with:
           name: Test trace reports
